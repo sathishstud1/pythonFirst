@@ -6,7 +6,7 @@ services:
      ports:
         - "5000:5000"
   code4:
-     build: ./code2
+     build: ./code4
      ports:
          - "5001:5001"
 
