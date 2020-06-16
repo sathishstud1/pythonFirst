@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  code3:
+     build: ./code3
+     ports:
+        - "5000:5000"
+  code2:
+     build: ./code2
+     ports:
+         - "5001:5001"
+
